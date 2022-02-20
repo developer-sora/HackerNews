@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true, //false로 하면 보통 자바스크립트여도 작동 가능(소프트 랜딩)
+    "target": "ES5", // 자바스크립트 버전
+    "module": "CommonJS",
+    "alwaysStrict": true,
+    "noImplicitAny": true, // any를 쓰지 못하도록
+    "noImplicitThis": true,
+    "sourceMap": true, // 개발환경과 실행환경 일치시킴
+    "downlevelIteration": true
+  }
+}
